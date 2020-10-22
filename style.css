@@ -1,0 +1,105 @@
+/*______________________________________________________
+------------ CSS FILE TO DESIGN THE WEBPAGE ------------
+== Created by Sameer Karna (Student of WhiteHat Jr.) ==
+______________CREATED ON 3rd OCTOBER 2020_______________
+
+- - - - - - - - - Copyright (c) 2020 - - - - - - - - - -
+
+ The permission to view and handle this game is hereby 
+               granted to all viewers. 
+
+ The above Copyright also disallows the viewers to copy
+   this code. If any copied version is published then 
+            the viewer will be charged.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+~~~~~ The below CLASS file comes under PLUCKING MANGOES project ~~~~~
+~~~~      The viewer is restricted from copying any content     ~~~~
+
+*/  
+
+
+
+  /* This specifies the margins and the background colour */
+    html, body {
+      margin: 20;
+      padding: 10;
+      background-image: url("bg.jpg");
+      background-repeat: no-repeat;
+      background-color: black;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+
+  /* This has all the properties of the Heading */
+    h1 {
+      text-shadow: 2px 2px 4px rgb(131, 232, 255);
+    }
+
+
+  /* Class for restricting the viewer to copy the content of the WebPage  */
+    .unselectable {
+      -webkit-user-select: none;
+      -webkit-touch-callout: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      color: #cc0000;
+    }
+
+
+  /* Class for creating a button and its properties */
+    .button{
+      background-color: rgb(34, 69, 92);
+      text-align: center;
+      cursor: pointer;
+      border: none;
+      margin: 5px -3px;
+      margin-top: 0.5cm;
+      padding: 15px 32px;
+      font-family: Bembo;
+      color: white;
+      font-size: 16px;
+      transition: 700ms ease;
+      }
+
+
+  /* Class for creating a 3D effect when a button is pressed over it */
+    .button:hover{
+      box-shadow: 0px 12px 20px rgb(89, 230, 255);
+      }
+
+
+  /* Properties of the image */
+    img {
+      border: 4px solid rgb(131, 232, 255);
+      border-radius: 20px;
+      width: 1000px;
+      display: block;
+      position: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 2cm;
+    }
+
+
+  /* to create a row */
+    .row {
+      display: flex;
+    }
+
+  
+  /* To create a column */
+    .column {
+      flex: 50%;
+      padding: 10px;
+      height: 100px; 
+    }
+
+
+
+/*===================================
+----------- CSS FILE END ------------
+====================================*/
